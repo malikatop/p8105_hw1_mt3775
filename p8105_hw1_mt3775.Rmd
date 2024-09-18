@@ -1,0 +1,20 @@
+---
+title: "Homework 1"
+author: "Malika Top"
+date: "2024-09-18"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Problem 1
+```{r}
+data("penguins", package = "palmerpenguins")
+```
+
+The penguins dataset is a dataframe containing information about
+adult foraging penguins near the Palmer Islands of Antarctica. Some important
+variables are `r colnames(penguins)`
+
